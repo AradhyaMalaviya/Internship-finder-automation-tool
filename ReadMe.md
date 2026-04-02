@@ -31,7 +31,7 @@ project-root/
 │
 ├── recruiters.csv        # Input data (Name, Company, Email)
 ├── rohit_resume.pdf      # Resume file
-├── index.js              # Main server file
+├── server.js              # Main server file
 ├── .env                  # Environment variables
 ├── package.json
 ```
@@ -86,7 +86,7 @@ Test User,DemoTech,your_email@gmail.com
 Place your resume file:
 
 ```
-rohit_resume.pdf
+your_name.pdf
 ```
 
 ---
@@ -94,7 +94,7 @@ rohit_resume.pdf
 ### 6️⃣ Run the project
 
 ```
-node index.js
+node server.js
 ```
 
 ---
