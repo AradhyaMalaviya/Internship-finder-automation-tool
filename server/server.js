@@ -28,15 +28,16 @@ stream.on("end", async () => {
   for (let row of array) {
     try {
       await transporter.sendMail({
-        from: "",
+        from: `\"Aaradhya Malaviya\" <${process.env.Email}>`,
         to: row.Email,
-        subject: `Full Stack Intern Application at ${row.Company}`,
+        subject: `Internship Application at ${row.Company}`,
 
         html: `
   <p>Hi ${row.Name},</p>
 
   <p>
-  I’m Rohit, a Full Stack Developer with around 1 year of experience, and I’ve worked with 2 startups. I’ve also won 4 hackathons.
+  I’m Aaradhya Malaviya, and I’ve attached my resume to apply for an internship role at your company. 
+  I am a passionate software developer with a strong drive to build meaningful projects and solve real-world problems.
 </p>
 
   <p>
@@ -49,17 +50,17 @@ stream.on("end", async () => {
 
   <p>
     Thank you for your time.<br/><br/>
-    Rohit Rajput<br/>
-    Phone: 6367710137<br/>
-    Portfolio: https://rohitportfolio-bay.vercel.app/<br/>
-    GitHub: https://github.com/CodewithRohitRajput
+    Aaradhya Malaviya<br/>
+    Phone: 9260940347<br/>
+    LinkedIn: https://www.linkedin.com/in/aradhya-malaviya-26bb31303/<br/>
+    GitHub: https://github.com/AradhyaMalaviya
   </p>
 `,
 
         attachments: [
           {
-            filename: "rohit_resume.pdf",
-            path: "./rohit_resume.pdf",
+            filename: "Aaradhya_Malaviya_Resume.pdf",
+            path: "./Aaradhya_Malaviya_Resume (1).pdf",
           },
         ],
       });
