@@ -36,7 +36,8 @@ stream.on("end", async () => {
   <p>Hi ${row.Name},</p>
 
   <p>
-  I’m Rohit, a Full Stack Developer with around 1 year of experience, and I’ve worked with 2 startups. I’ve also won 4 hackathons.</p>
+  I’m Rohit, a Full Stack Developer with around 1 year of experience, and I’ve worked with 2 startups. I’ve also won 4 hackathons.
+</p>
 
   <p>
     I’m currently looking for an internship opportunity at <b>${row.Company}</b> where I can contribute from day one and continue learning in a fast-paced environment.
@@ -49,7 +50,7 @@ stream.on("end", async () => {
   <p>
     Thank you for your time.<br/><br/>
     Rohit Rajput<br/>
-    Phone: 123456789 <br/>
+    Phone: 6367710137<br/>
     Portfolio: https://rohitportfolio-bay.vercel.app/<br/>
     GitHub: https://github.com/CodewithRohitRajput
   </p>
@@ -58,7 +59,7 @@ stream.on("end", async () => {
         attachments: [
           {
             filename: "rohit_resume.pdf",
-            path: "./Fake_Resume.pdf",
+            path: "./rohit_resume.pdf",
           },
         ],
       });

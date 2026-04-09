@@ -111,7 +111,7 @@ node server.js
 ## ⚠️ Important Notes
 
 * Do NOT send too many emails at once
-* Recommended: 10–20 emails/day
+* Recommended: 100–150 emails/day
 * Always test using your own email first
 * Gmail requires App Password
 
